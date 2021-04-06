@@ -1,0 +1,4 @@
+touch           =        yeni     fayl      yaratmaq
+rm              =        mövcud   faylı     silmək
+mkdir           =        yeni     qovluq    yaratmaq
+rmdir           =        mövcud   qovluqu   silmək
