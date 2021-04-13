@@ -1,0 +1,23 @@
+#txt1{
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+}
+#word{
+    background-color: green;
+    font-size: 20px;
+    color: chartreuse;
+}
+
+
+.soz{
+    background-color: cyan;
+    font-size: 40px;
+}
+
+
+.txt2{
+    background-color: darkblue;
+    color: white;
+    font-size: 10px;
+}

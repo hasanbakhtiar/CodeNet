@@ -1,0 +1,51 @@
+/* .text1{
+    background-color: green;
+    color: red;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-style: italic;
+} */
+
+/* .box{
+    width: 400px; en
+    height: 400px; hunudrluk
+    background-color: black;
+} */
+
+
+/* .box p{
+    color: green;
+} */
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* margin: 10px; */
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 10px; */
+    margin: 20px 10px 5px 100px;
+
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+     /* padding: 10px; */
+    /* padding-top: 10px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 20px 10px 5px 100px;
+}
