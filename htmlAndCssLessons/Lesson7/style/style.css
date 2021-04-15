@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* body,*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+/* Reset END */
+
+/* -------------------------------------------------------------- */
+/* Block elements       -> Bütün sətri(width) əhatə edir.
+
+Inline elements         -> Hündürlük və en (hight and width) qəbul etmir.
+
+Inline-Block elements   -> Olduğu yerlə kifayətlənir.    */
+/* .container *{
+margin: 5px;
+}
+.container .box1 {
+    color: #fff;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+
+.container .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.container .box3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+} */
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+
+
+/* img{
+    float: left;
+    float: right;
+}
+.text2{
+    clear: both;
+    clear: left;
+    clear: right;
+} */
+
+
+
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* HEX COLOR -> 1234567890ABCDEF (16 number system) */
+/* rgb 
+min->0
+max->255
+r -> red
+g -> green
+b -> blue
+*/
+/* rgba 
+min->0
+max->255
+r -> red
+g -> green
+b -> blue
+a -> alpha (max 1 \ min 0.00000001)
+*/
+/* .infoColor{
+    width: 300px;
+    height: 400px;
+    background-color: #27a71b; */
+    /* background-color:rgb(54, 118, 138);
+    background-color: black;
+} */
+/* .infoColor .infoBox{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 1);
+} */
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* https://cssgradient.io/ */
+.boxClr{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(360deg, rgba(0,255,67,1) 0%, rgba(137,14,218,1) 55%, rgba(5,42,3,1) 100%);
+}
+
+
+/* -------------------------------------------------------------- */
