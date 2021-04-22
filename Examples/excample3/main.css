@@ -1,0 +1,38 @@
+.conatiner-main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conatiner{
+    height: 213px;
+    width: 50%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.conatiner .row{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.conatiner .row .box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.conatiner .row1 .box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.conatiner .row1 {
+    display: flex;
+justify-content: space-between;
+
+    width: 43%;
+
+}
