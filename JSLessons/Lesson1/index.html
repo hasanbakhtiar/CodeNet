@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Lesson1</title>
+    <style>
+        #root{
+            background-color: brown;
+            border: none;
+            color: white;
+            
+        }
+    </style>
+    
+</head>
+<body>
+
+
+
+    <!-- <p id="root">Azerbaijan</p> -->
+
+    <button id="root" onclick="myEvent()">Azerbijan</button>
+
+    <script>
+
+        function myEvent() {
+            document.getElementById('root').innerHTML="Baku";
+        }
+        
+    </script>
+
+    <!-- <pre>
+        <script>
+document.write("Hi JS");
+document.write("Hi JS");
+document.writeln("Hi JS");
+document.writeln("Hi JS");
+document.writeln("Hi JS");
+        </script>
+    </pre> -->
+
+    <noscript>Please allow js engine</noscript>
+
+    <!-- Internal JS  -->
+    <script></script>
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
