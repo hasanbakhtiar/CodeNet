@@ -1,0 +1,113 @@
+.container .box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation: myevent 5s infinite 3s;
+          animation: myevent 5s infinite 3s;
+}
+
+@-webkit-keyframes myevent {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: #d400ff;
+  }
+  25% {
+    top: 0px;
+    left: 100px;
+    background: blue;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+    background: yellow;
+  }
+  75% {
+    top: 100px;
+    left: 0px;
+    background: green;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: red;
+  }
+}
+
+@keyframes myevent {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: #d400ff;
+  }
+  25% {
+    top: 0px;
+    left: 100px;
+    background: blue;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+    background: yellow;
+  }
+  75% {
+    top: 100px;
+    left: 0px;
+    background: green;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: red;
+  }
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: wheat;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header nav ul li a {
+    text-transform: uppercase;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -144,7 +144,7 @@ document.write("<br>"+ infoStriSt + infoStriNd+"<br>")
 // --------------------------------------------------------------------------------------------------
 // Other (Special) Operators (Xüsusi operatorlar) Start
 
-// ,            (vergül)(kodalrı bir-birindən ayırmaq və sintaksis qanun uyğunluqları icra etmək üçündür )
+// ,            (vergül)(kodları bir-birindən ayırmaq və sintaksis qanun uyğunluqları icra etmək üçündür )
 // \            (tərs slash)(Qaçındırma operatorudur)
 // typeof       (tip üçün)(datanın tipini təyin etmək üçündür)
 
@@ -153,7 +153,7 @@ document.write("<br>"+ infoStriSt + infoStriNd+"<br>")
 // şərt            ? true                 : false
 
 // void         (dəyişkənin dəyərini undefined etmək üçündür)
-// delete       (ojectin dəyərini silmək üçündür)
+// delete       (objectin dəyərini silmək üçündür)
 // new          (yeni dəyər yaratməq üçündür)
 // this         (mövcud dəyəri işarələmək üçündür)
 // in           (dəyişkənin daxilində dəyərin olub olmamasını yoxlamaq üçündür)
