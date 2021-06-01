@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            cursor: pointer;
+        }
+        .root{
+            color: red;
+        }
+        .root1{
+            color: green;
+        }
+        .root3{
+            background-color: black;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+
+<p onclick="hide()" ondblclick="show()">Hide</p>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+
+    <div class="container"></div>
+
+    
+
+    <script>
+
+        const hide = () =>{
+            document.getElementsByTagName('ul')[0].style.display = "none";
+        }
+        const show = () =>{
+            document.getElementsByTagName('ul')[0].style.display = "block";
+        }
+    </script>
+</body>
+</html>
