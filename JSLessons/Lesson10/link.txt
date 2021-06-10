@@ -1,0 +1,26 @@
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_elementcreate 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_elementcreate2
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_elementcreate
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_elementremovechild
+
+document.getElementById("p1").remove();
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_elementremove
+
+
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
+<script>
+var parent = document.getElementById("div1");
+var child = document.getElementById("p1");
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+parent.replaceChild(para,child);
+</script>
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_elementreplace
+
+
+https://www.w3schools.com/js/js_htmldom_collections.asp
+https://www.w3schools.com/js/js_htmldom_nodelist.asp
